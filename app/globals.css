@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-block text-center;
+  }
+  
+  .btn-primary {
+    @apply bg-gold text-black hover:bg-gold-dark transform hover:-translate-y-0.5;
+  }
+  
+  .btn-whatsapp {
+    @apply bg-whatsapp text-white hover:bg-whatsapp-dark transform hover:-translate-y-0.5;
+  }
+  
+  .container {
+    @apply max-w-6xl mx-auto px-4;
+  }
+  
+  .section {
+    @apply py-16;
+  }
+}
