@@ -16,8 +16,8 @@ interface CityPageProps {
 
 export async function generateMetadata({ params }: CityPageProps): Promise<Metadata> {
   const countryName = countries.find(c => getCountrySlug(c) === params.country)
-  const cities = majorCities[countryName || ''] || []
-  const cityName = cities.find(c => getCitySlug(c) === params.city)
+  const cities = countryName && countryName in majorCities ? majorCities[countryName as keyof typeof majorCities] : []
+  const cityName = cities.find((c: string) => getCitySlug(c) === params.city)
   
   if (!countryName || !cityName) {
     return {
@@ -56,10 +56,10 @@ export async function generateStaticParams() {
   return params
 }
 
-export default function CityPage({ params }: CityPageProps) {
-  const countryName = countries.find(c => getCountrySlug(c) === params.country)
-  const cities = majorCities[countryName || ''] || []
-  const cityName = cities.find(c => getCitySlug(c) === params.city)
+export default async function CityPage({ params }: CityPageProps) {
+  const countryName = countries.find((c: string) => getCountrySlug(c) === params.country)
+  const cities = countryName && countryName in majorCities ? majorCities[countryName as keyof typeof majorCities] : []
+  const cityName = cities.find((c: string) => getCitySlug(c) === params.city)
   
   if (!countryName || !cityName) {
     return <div>Location not found</div>
@@ -67,7 +67,7 @@ export default function CityPage({ params }: CityPageProps) {
 
   const content = generateContentVariation(cityName, true)
   const layoutVariant = getLayoutVariant(`${params.country}-${params.city}`)
-  const layoutConfig = getLayoutConfig(layoutVariant)
+  const layoutConfig = getLayoutConfig(layoutVariant, params.country)
 
   const ctaTexts = [
     "Contact on WhatsApp",

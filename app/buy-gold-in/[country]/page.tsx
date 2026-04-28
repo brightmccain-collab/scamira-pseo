@@ -53,7 +53,7 @@ export default function CountryPage({ params }: CountryPageProps) {
 
   const content = generateContentVariation(countryName, false)
   const layoutVariant = getLayoutVariant(params.country)
-  const layoutConfig = getLayoutConfig(layoutVariant)
+  const layoutConfig = getLayoutConfig(layoutVariant, params.country)
 
   const ctaTexts = [
     "Contact on WhatsApp",

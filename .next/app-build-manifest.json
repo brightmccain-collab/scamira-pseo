@@ -1,0 +1,59 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/app/_not-found/page-94c683a891433c6f.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/css/eecb4470f2c1bd69.css",
+      "static/chunks/app/layout-0dadac7b9e967234.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/page-78f16d62cb46f705.js"
+    ],
+    "/backlinks/[country]/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/backlinks/[country]/page-15247060a29836ad.js"
+    ],
+    "/backlinks/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/backlinks/page-5ecf7b99578773bf.js"
+    ],
+    "/buy-gold-in/[country]/[city]/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/buy-gold-in/[country]/[city]/page-612a344407a0ff19.js"
+    ],
+    "/buy-gold-in/[country]/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/buy-gold-in/[country]/page-a6e29d352c5b5645.js"
+    ]
+  }
+}

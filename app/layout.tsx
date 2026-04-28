@@ -1,12 +1,13 @@
+import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
+import Analytics from '@/components/Analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Buy Gold Worldwide with Cryptocurrency | Dubai & Cairo Delivery',
-  description: 'Premium gold delivered worldwide using Bitcoin, Ethereum, and cryptocurrencies. Fast delivery from Dubai & Cairo. Trusted global gold dealer.',
+  title: 'Gold Investment Hub - Buy Gold with Cryptocurrency',
+  description: 'Premium gold investment platform accepting Bitcoin, Ethereum, and cryptocurrencies. Fast delivery from Dubai & Cairo.',
   metadataBase: new URL('https://amiraaldhab.online'),
 }
 
@@ -20,7 +21,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Analytics />
+        {children}
+      </body>
     </html>
   )
 }

@@ -72,7 +72,7 @@ export function generateContentVariation(location: string, isCity: boolean = fal
   
   const variation: ContentVariation = {
     intro: [contentVariations.intro[introIndex]],
-    bodyBlocks: contentVariations.bodyBlocks[bodyBlockIndex],
+    bodyBlocks: [contentVariations.bodyBlocks[bodyBlockIndex]],
     microSections: [contentVariations.microSections[microSectionIndex]],
     conclusion: [contentVariations.conclusion[conclusionIndex]],
     trustPoints: contentVariations.trustPoints
