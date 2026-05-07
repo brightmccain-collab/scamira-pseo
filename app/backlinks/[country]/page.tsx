@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: CountryBacklinkPageProps): Pr
       images: [`/api/og/backlinks/${params.country}`]
     },
     alternates: {
-      canonical: `https://amiraaldhab.online/backlinks/${params.country}`
+      canonical: `https://www.amiraalhadab.online/backlinks/${params.country}`
     }
   }
 }
@@ -217,7 +217,7 @@ export default async function CountryBacklinkPage({ params }: CountryBacklinkPag
             <OutreachSection 
               country={params.country}
               countrySlug={params.country}
-              canonicalUrl={`https://amiraaldhab.online/backlinks/${params.country}`}
+              canonicalUrl={`https://www.amiraalhadab.online/backlinks/${params.country}`}
             />
           </div>
         </section>

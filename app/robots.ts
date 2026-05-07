@@ -16,6 +16,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: '/',
       },
     ],
-    sitemap: 'https://amiraaldhab.online/sitemap.xml',
+    sitemap: 'https://www.amiraalhadab.online/sitemap.xml',
   }
 }

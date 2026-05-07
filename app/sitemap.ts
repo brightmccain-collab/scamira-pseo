@@ -1,7 +1,7 @@
 import { countries, majorCities, getCountrySlug, getCitySlug } from '@/lib/data'
 
 export default function sitemap() {
-  const baseUrl = 'https://amiraaldhab.online'
+  const baseUrl = 'https://www.amiraalhadab.online'
 
   // Homepage
   const homePage = {

@@ -84,7 +84,7 @@ npm start
 ### Environment Variables
 Create `.env.local` for production:
 ```env
-NEXT_PUBLIC_BASE_URL=https://amiraaldhab.online
+NEXT_PUBLIC_BASE_URL=https://www.amiraalhadab.online
 NEXT_PUBLIC_WHATSAPP_NUMBER=2819063800
 ```
 

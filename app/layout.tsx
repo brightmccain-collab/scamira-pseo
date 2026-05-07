@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Gold Investment Hub - Buy Gold with Cryptocurrency',
   description: 'Premium gold investment platform accepting Bitcoin, Ethereum, and cryptocurrencies. Fast delivery from Dubai & Cairo.',
-  metadataBase: new URL('https://amiraaldhab.online'),
+  metadataBase: new URL('https://www.amiraalhadab.online'),
 }
 
 export default function RootLayout({

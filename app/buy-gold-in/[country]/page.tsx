@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: CountryPageProps): Promise<Me
       type: 'website',
     },
     alternates: {
-      canonical: `https://amiraaldhab.online/buy-gold-in/${params.country}`
+      canonical: `https://www.amiraalhadab.online/buy-gold-in/${params.country}`
     }
   }
 }

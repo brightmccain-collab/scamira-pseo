@@ -141,7 +141,7 @@ export default async function CityPage({ params }: CityPageProps) {
                       </CTAButton>
                       <CTAButton 
                         variant="primary" 
-                        href="https://amiraaldhab.online"
+                        href="https://www.amiraalhadab.online"
                       >
                         🏠 Visit Main Site
                       </CTAButton>
