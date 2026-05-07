@@ -6,12 +6,12 @@ export function generateBacklinkSchema(country: string, countrySlug: string) {
     "description": `Comprehensive gold investment guide for ${country}. Learn about crypto-to-gold conversion, market trends, and secure investment strategies with Dubai & Cairo sourcing.`,
     "author": {
       "@type": "Organization",
-      "name": "Amira Al Dhab",
+      "name": "amira alhadab",
       "url": "https://www.amiraalhadab.online"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Amira Al Dhab",
+      "name": "amira alhadab",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.amiraalhadab.online/logo.png"

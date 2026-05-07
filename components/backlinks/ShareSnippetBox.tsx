@@ -21,7 +21,7 @@ export function ShareSnippetBox({ country, countrySlug, summary, citation, class
 
   const htmlSnippet = `<blockquote cite="https://amiraaldhab.online/backlinks/${countrySlug}">
   <p>"${citation}"</p>
-  <cite>— Gold Investment Guide for ${country}</cite>
+  <cite>— amira alhadab Gold Investment Guide for ${country}</cite>
 </blockquote>`
 
   const embeddableCode = `<iframe src="https://amiraaldhab.online/backlinks/${countrySlug}/embed" width="600" height="400" frameborder="0"></iframe>`
