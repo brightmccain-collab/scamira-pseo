@@ -93,7 +93,7 @@ export default function CountryPage({ params }: CountryPageProps) {
                     </CTAButton>
                     <CTAButton 
                       variant="primary" 
-                      href="https://amiraaldhab.online"
+                      href="https://www.amiraalhadab.online"
                     >
                       🏠 Visit Main Site
                     </CTAButton>

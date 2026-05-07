@@ -18,7 +18,7 @@ export function generateProductSchema(location: string, isCity: boolean = false)
       "seller": {
         "@type": "Organization",
         "name": "Buy Gold with Crypto",
-        "url": "https://amiraaldhab.online"
+        "url": "https://www.amiraalhadab.online"
       }
     },
     "brand": {
@@ -107,13 +107,13 @@ export function generateBreadcrumbSchema(country: string, city?: string) {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://amiraaldhab.online"
+      "item": "https://www.amiraalhadab.online"
     },
     {
       "@type": "ListItem", 
       "position": 2,
       "name": `Buy Gold in ${country}`,
-      "item": `https://amiraaldhab.online/buy-gold-in/${country.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+      "item": `https://www.amiraalhadab.online/buy-gold-in/${country.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
     }
   ]
 
@@ -122,7 +122,7 @@ export function generateBreadcrumbSchema(country: string, city?: string) {
       "@type": "ListItem",
       "position": 3,
       "name": `Buy Gold in ${city}`,
-      "item": `https://amiraaldhab.online/buy-gold-in/${country.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/${city.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+      "item": `https://www.amiraalhadab.online/buy-gold-in/${country.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/${city.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
     })
   }
 

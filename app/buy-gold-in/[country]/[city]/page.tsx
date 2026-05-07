@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       type: 'website',
     },
     alternates: {
-      canonical: `https://amiraaldhab.online/buy-gold-in/${params.country}/${params.city}`
+      canonical: `https://www.amiraalhadab.online/buy-gold-in/${params.country}/${params.city}`
     }
   }
 }
