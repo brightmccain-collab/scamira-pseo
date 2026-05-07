@@ -1,59 +1,59 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/app/_not-found/page-94c683a891433c6f.js"
     ],
     "/layout": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/css/eecb4470f2c1bd69.css",
-      "static/chunks/app/layout-0dadac7b9e967234.js"
+      "static/chunks/app/layout-90cd2f9296c5e65e.js"
     ],
     "/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/231-c63117a5b6b390d2.js",
-      "static/chunks/app/page-78f16d62cb46f705.js"
+      "static/chunks/app/page-67a46be1db51c110.js"
+    ],
+    "/backlinks/page": [
+      "static/chunks/webpack-c1465c218e8d896c.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/backlinks/page-3ecaac1bd232bb5d.js"
     ],
     "/backlinks/[country]/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/231-c63117a5b6b390d2.js",
       "static/chunks/app/backlinks/[country]/page-15247060a29836ad.js"
     ],
-    "/backlinks/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+    "/buy-gold-in/[country]/page": [
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/231-c63117a5b6b390d2.js",
-      "static/chunks/app/backlinks/page-5ecf7b99578773bf.js"
+      "static/chunks/app/buy-gold-in/[country]/page-59501f86d639d4d1.js"
     ],
     "/buy-gold-in/[country]/[city]/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
       "static/chunks/23-d75af61a1ab3af5a.js",
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/231-c63117a5b6b390d2.js",
-      "static/chunks/app/buy-gold-in/[country]/[city]/page-612a344407a0ff19.js"
-    ],
-    "/buy-gold-in/[country]/page": [
-      "static/chunks/webpack-bbf38ab73833ad8f.js",
-      "static/chunks/fd9d1056-62aaf4b921c84028.js",
-      "static/chunks/23-d75af61a1ab3af5a.js",
-      "static/chunks/main-app-9a76375ba8eb1bb3.js",
-      "static/chunks/231-c63117a5b6b390d2.js",
-      "static/chunks/app/buy-gold-in/[country]/page-a6e29d352c5b5645.js"
+      "static/chunks/app/buy-gold-in/[country]/[city]/page-6d09ea65f512826d.js"
     ]
   }
 }

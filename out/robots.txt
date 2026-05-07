@@ -7,4 +7,4 @@ Disallow: /
 User-Agent: SemrushBot
 Disallow: /
 
-Sitemap: https://amiraaldhab.online/sitemap.xml
+Sitemap: https://www.amiraalhadab.online/sitemap.xml

@@ -4,7 +4,8 @@ import React from 'react'
 import { countries, getCountrySlug } from '@/lib/data'
 import { generateContentVariation } from '@/lib/aiContent'
 import { getLayoutVariant, getLayoutConfig } from '@/lib/layoutVariants'
-import { CTAButton, getCTAText } from '@/components/CTAButton'
+import { CTAButton } from '@/components/CTAButton'
+import { getCTAText } from '@/lib/ctaText'
 import { InternalLinks } from '@/components/InternalLinks'
 import { Testimonials } from '@/components/Testimonials'
 import { FAQSection } from '@/components/FAQSection'
@@ -88,7 +89,7 @@ export default function CountryPage({ params }: CountryPageProps) {
                       variant="whatsapp" 
                       href={`https://wa.me/2819063800?text=${encodeURIComponent(whatsappMessage)}`}
                     >
-                      📱 {getCTAText(params.country, 'hero')}
+                      📱 {getCTAText(params.country, 'top')}
                     </CTAButton>
                     <CTAButton 
                       variant="primary" 
