@@ -23,14 +23,6 @@
       "static/chunks/231-c63117a5b6b390d2.js",
       "static/chunks/app/page-67a46be1db51c110.js"
     ],
-    "/backlinks/page": [
-      "static/chunks/webpack-c1465c218e8d896c.js",
-      "static/chunks/fd9d1056-62aaf4b921c84028.js",
-      "static/chunks/23-d75af61a1ab3af5a.js",
-      "static/chunks/main-app-9a76375ba8eb1bb3.js",
-      "static/chunks/231-c63117a5b6b390d2.js",
-      "static/chunks/app/backlinks/page-3ecaac1bd232bb5d.js"
-    ],
     "/backlinks/[country]/page": [
       "static/chunks/webpack-c1465c218e8d896c.js",
       "static/chunks/fd9d1056-62aaf4b921c84028.js",
@@ -54,6 +46,14 @@
       "static/chunks/main-app-9a76375ba8eb1bb3.js",
       "static/chunks/231-c63117a5b6b390d2.js",
       "static/chunks/app/buy-gold-in/[country]/[city]/page-6d09ea65f512826d.js"
+    ],
+    "/backlinks/page": [
+      "static/chunks/webpack-c1465c218e8d896c.js",
+      "static/chunks/fd9d1056-62aaf4b921c84028.js",
+      "static/chunks/23-d75af61a1ab3af5a.js",
+      "static/chunks/main-app-9a76375ba8eb1bb3.js",
+      "static/chunks/231-c63117a5b6b390d2.js",
+      "static/chunks/app/backlinks/page-3ecaac1bd232bb5d.js"
     ]
   }
 }
