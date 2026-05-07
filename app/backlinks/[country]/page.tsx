@@ -14,14 +14,11 @@ interface CountryBacklinkPageProps {
 }
 
 export async function generateStaticParams() {
-  // For now, return a limited set of countries to avoid build timeout
-  return [
-    { country: 'nigeria' },
-    { country: 'germany' },
-    { country: 'canada' },
-    { country: 'united-states' },
-    { country: 'india' }
-  ]
+  const { countries, getCountrySlug } = await import('@/lib/data')
+  
+  return countries.map((country) => ({
+    country: getCountrySlug(country)
+  }))
 }
 
 export async function generateMetadata({ params }: CountryBacklinkPageProps): Promise<Metadata> {

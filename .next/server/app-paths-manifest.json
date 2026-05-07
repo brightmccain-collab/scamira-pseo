@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
   "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/backlinks/page": "app/backlinks/page.js",
   "/backlinks/[country]/page": "app/backlinks/[country]/page.js",
+  "/backlinks/page": "app/backlinks/page.js",
   "/buy-gold-in/[country]/[city]/page": "app/buy-gold-in/[country]/[city]/page.js",
   "/buy-gold-in/[country]/page": "app/buy-gold-in/[country]/page.js"
 }

@@ -7,24 +7,24 @@ export function generateBacklinkSchema(country: string, countrySlug: string) {
     "author": {
       "@type": "Organization",
       "name": "Amira Al Dhab",
-      "url": "https://amiraaldhab.online"
+      "url": "https://www.amiraalhadab.online"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Amira Al Dhab",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://amiraaldhab.online/logo.png"
+        "url": "https://www.amiraalhadab.online/logo.png"
       }
     },
     "datePublished": new Date().toISOString(),
     "dateModified": new Date().toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://amiraaldhab.online/backlinks/${countrySlug}`
+      "@id": `https://www.amiraalhadab.online/backlinks/${countrySlug}`
     },
     "image": [
-      `https://amiraaldhab.online/api/og/backlinks/${countrySlug}`
+      `https://www.amiraalhadab.online/api/og/backlinks/${countrySlug}`
     ],
     "articleSection": "Gold Investment",
     "keywords": [`gold investment ${country}`, `cryptocurrency gold ${country}`, `Bitcoin gold ${country}`, `gold market ${country}`, `crypto investment ${country}`],
@@ -105,19 +105,19 @@ export function generateBreadcrumbSchema(section: string, country: string) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://amiraaldhab.online"
+        "item": "https://www.amiraalhadab.online"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Backlinks",
-        "item": "https://amiraaldhab.online/backlinks"
+        "item": "https://www.amiraalhadab.online/backlinks"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": country,
-        "item": `https://amiraaldhab.online/backlinks/${country.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://www.amiraalhadab.online/backlinks/${country.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }
