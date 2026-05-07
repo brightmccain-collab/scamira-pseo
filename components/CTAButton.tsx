@@ -1,4 +1,4 @@
-'use cl`ient'
+'use client'
 
 import Link from 'next/link'
 import { trackWhatsAppClick, trackCTAClick, getWhatsAppUrl, getWhatsAppMessage } from '@/lib/analytics'
